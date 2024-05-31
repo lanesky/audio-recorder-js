@@ -1,0 +1,20 @@
+{
+  "name": "@lanesky/audio-recorder-js",
+  "version": "1.0.0",
+  "description": "A JavaScript library for audio recording using AudioWorkletNode.",
+  "main": "src/index",
+  "types": "src/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lanesky/audio-recorder-js.git"
+  },
+  "keywords": [
+    "audio",
+    "recorder",
+    "audio-recorder",
+    "web-audio",
+    "audio-worklet"
+  ],
+  "author": "lanesky",
+  "license": "Apache-2.0"
+}
