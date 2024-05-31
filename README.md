@@ -190,6 +190,8 @@ function App() {
 export default App;
 ```
 
+<img src="example-screenshot.png" alt="example" width="512"/>
+
 ## Notes
 
 ### recording-processor.js
