@@ -7,7 +7,7 @@ A JavaScript library for audio recording, based on the [GoogleChromeLabs Web Aud
 
 Install using npm:
 ```sh
-npm install audio-recorder-js
+npm install @lanesky/audio-recorder-js
 ```
 
 ## IMPORTANT
@@ -27,7 +27,7 @@ Create a custom hook for audio recording:
 
 import { useEffect, useRef, useState } from "react";
 
-import { AudioRecorder } from "audio-recorder-js"
+import { AudioRecorder } from "@lanesky/audio-recorder-js"
 
 const useAudioRecorder = (createVisualizers: (analyserNode: AnalyserNode) => (unknown)[], workletNodeProcessorUrl =  './recording-processor.js') => {
   const audioRecorderRef = useRef<AudioRecorder | null>(null);
